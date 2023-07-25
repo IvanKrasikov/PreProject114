@@ -13,9 +13,6 @@ public class Util {
 
     public Util() throws SQLException {
             conn = DriverManager.getConnection(URL, USER, PASS);
-//            if (!conn.isClosed()) {
-//                System.out.println("Connection");
-//            }
     }
 
     public Util(String url, String user, String pass) throws SQLException {
